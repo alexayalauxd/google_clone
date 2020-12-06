@@ -1,5 +1,6 @@
 :root{
     --black: #282828;
+    --gray: #252525;
 }
 body{
     margin: 0;
@@ -7,8 +8,6 @@ body{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* 
-*/
 a{
     text-decoration: none;
     cursor: pointer;
@@ -31,6 +30,18 @@ a{
     align-items: center;
 }
 .header a{
-    margin-left: 10px;
+    padding-left: 15px;
     color: var(--black);
+}
+.opacity-a{
+    opacity: .85;
+}
+.fas{
+    font-size: 1.2em;
+    opacity: .55;
+}
+.profile{
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
 }
