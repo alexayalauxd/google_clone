@@ -1,6 +1,7 @@
 :root{
     --black: #282828;
     --gray: #252525;
+    --grayLight: #dfe1e5;
 }
 body{
     margin: 0;
@@ -44,4 +45,40 @@ a{
     border-radius: 50px;
     width: 32px;
     height: 32px;
+}
+
+.main{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.main__img{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.main__img img{
+    width: 50%;
+}
+
+.main__input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.main__inputContainer{
+    width: 525px;
+    border-radius: 40px;
+    border: 1px solid var(--grayLight);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 14px;
+}
+
+.main__inputContainer input{
+    width: 450px;
+    height: 30px;
+    border: none;
+    outline: none;
 }
