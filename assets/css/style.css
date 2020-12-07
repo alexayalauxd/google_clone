@@ -1,13 +1,17 @@
 :root{
     --black: #282828;
-    --gray: #252525;
+    --gray: #9aa0a6;
     --grayLight: #dfe1e5;
+    --shadow: rgba(32,33,36,.28);
 }
 body{
     margin: 0;
     padding: 0;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
 }
 a{
     text-decoration: none;
@@ -81,4 +85,12 @@ a{
     height: 30px;
     border: none;
     outline: none;
+}
+.main__inputContainer:hover{
+    box-shadow: 0 1px 6px var(--shadow);
+    border: ;
+}
+
+.inputContainer__search, .inputContainer__micro{
+    color: var(--gray);
 }
